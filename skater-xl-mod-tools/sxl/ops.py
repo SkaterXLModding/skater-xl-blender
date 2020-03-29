@@ -9,7 +9,7 @@ from __future__ import division, print_function, absolute_import
 
 __author__ = "Greg Amato"
 __url__ = "https://gregamato.dev"
-__copyright__ = "Copyright 2019, Greg Amato - Amatobahn"
+__copyright__ = "Copyright 2019-2020, Greg Amato - Amatobahn"
 __credits__ = []
 __license__ = "GNU Public License"
 __maintainer__ = "Greg Amato"
@@ -145,7 +145,7 @@ class SXLGeneratePoints(bpy.types.Operator):
         print(vertex_array)
         if len(vertex_array) > 1:
             # Build Grind Root
-            grind_root = self.add_point("{}_GrindSpline_{}_Root".format(obj.name, self.audio_cue),
+            grind_root = self.add_point("{}_GrindSpline_Grind_{}_Root".format(obj.name, self.audio_cue),
                                         str(uuid.uuid4())[:3],
                                         location=obj.location,
                                         parent=obj)

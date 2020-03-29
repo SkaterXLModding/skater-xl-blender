@@ -9,9 +9,9 @@ from __future__ import division, print_function, absolute_import
 
 __author__ = "Greg Amato"
 __url__ = "https://gregamato.dev"
-__copyright__ = "Copyright 2019, Greg Amato - Amatobahn"
+__copyright__ = "Copyright 2019-2020, Greg Amato - Amatobahn"
 __credits__ = []
-__license__ = "MIT"
+__license__ = "GNU Public License"
 __maintainer__ = "Greg Amato"
 __status__ = "Development"
 
